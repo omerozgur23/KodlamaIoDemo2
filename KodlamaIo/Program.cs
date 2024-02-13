@@ -3,7 +3,7 @@
 using KodlamaIo.Business.Abstracts;
 using KodlamaIo.Business.Concretes;
 using KodlamaIo.DataAccess.Concretes;
-using KodlamaIo.Entities;
+using KodlamaIo.Entities.Concretes;
 
 
 ICourseService _courseService = new CourseManager(new CourseDal());

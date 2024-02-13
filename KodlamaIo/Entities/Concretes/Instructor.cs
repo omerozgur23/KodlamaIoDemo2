@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KodlamaIo.Entities.Abstracts;
 
-namespace KodlamaIo.Entities;
+namespace KodlamaIo.Entities.Concretes;
 
-public class Instructor:BaseEntity
+public class Instructor : BaseEntity
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }

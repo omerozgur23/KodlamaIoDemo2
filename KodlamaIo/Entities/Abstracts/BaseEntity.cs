@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodlamaIo.Entities;
+namespace KodlamaIo.Entities.Abstracts;
 
 public class BaseEntity
 {

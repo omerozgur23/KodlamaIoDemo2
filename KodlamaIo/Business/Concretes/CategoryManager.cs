@@ -1,6 +1,6 @@
 ﻿using KodlamaIo.Business.Abstracts;
 using KodlamaIo.DataAccess.Abstracts;
-using KodlamaIo.Entities;
+using KodlamaIo.Entities.Concretes;
 
 
 namespace KodlamaIo.Business.Concretes;
